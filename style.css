@@ -11,19 +11,19 @@
     width: 80%;
     margin: 2rem auto;
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(8, 1fr);
 }
 
 .left-section {
-    grid-column: span 2;
-    height: 100%;
-    background-color: #999999;
+    grid-column: span 3;
+    height: 55%;
+    background-color: #9E9E9E;
 }
 
 .right-section {
     grid-column: span 5;
-    height: 100%;
-    background-color: #424a50;
+    height: 55%;
+    background-color: #546E7A; 
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -34,18 +34,21 @@
 .profile {
     width: 100%;
     border-bottom: 2px solid #eeeeee;
+    padding-bottom: 1rem;
 }
 
 .profile .profile-image {
-    width: 100%;
+    width: 65%;
     border-radius: 100%;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .name {
-    color: #D6DBDF;
-    font-size: 30px;
-    font-size: 26px;
-    letter-spacing: 2px;
+    color: #546E7A;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -56,14 +59,16 @@
     text-align: center;
 }
 
-/* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
     color: #eeeeee;
     font-size: 20px;
+    padding-top: 1rem;
 }
 
 .contact-info ul {
     padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #eeeeee;
 }
 
 .contact-info ul li,
@@ -74,8 +79,8 @@
 
 .contact-info ul li i,
 .references ul li i {
-    padding-right: 1rem;
-    font-size: 18px;
+    padding-right: 0.5rem;
+    font-size: 14px;
     color: #eeeeee;
 }
 
